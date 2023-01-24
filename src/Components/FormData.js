@@ -82,7 +82,7 @@ const FormData = () => {
     );
   } else {
     return (
-      <div>
+      <div style={{ margin: "20px" }}>
         <div className="main">
           {state.Employees.map((value, index) => {
             return (
